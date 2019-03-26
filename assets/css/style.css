@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box; 
+    }
+
+h1 {
+    font-family: 'Italianno', cursive;
+    text-align:center;
+    font-size: 40px;
+    color:darkmagenta;
+}
+.section {
+    background: url('assets/images/question.jpg') 50% 50% no-repeat;
+    background-repeat:no-repeat;
+    background-size:cover;
+   
+
+}
