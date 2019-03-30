@@ -1,6 +1,12 @@
 * {
-    box-sizing: border-box; 
-    }
+    box-sizing:border-box;
+}
+body {
+    background-color: #eee;
+    max-width:980px;
+    margin:auto;
+}
+    
 
 h1 {
     font-family: 'Italianno', cursive;
@@ -8,10 +14,20 @@ h1 {
     font-size: 40px;
     color:darkmagenta;
 }
-.section {
-    background: url('assets/images/question.jpg') 50% 50% no-repeat;
+section {
+    border:3px black groove;
+    padding: 30px 0 0 20px;
+    width: 500px;
+    height: 250px;
+    color:rgb(112, 8, 248);
+
+    background: url("../images/question.jpg"); width: 500px; height: 250px;
     background-repeat:no-repeat;
     background-size:cover;
-   
-
+    background-size:contain;
+    background-position: center;
+    background-color: #eee;
+}
+p {
+    font-family: 'Ewert', cursive;
 }
